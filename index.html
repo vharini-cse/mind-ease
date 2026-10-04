@@ -1,0 +1,553 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="MindEase - A simple mindfulness and wellness platform for breathing, reflection and daily wellbeing."
+    >
+
+    <title>MindEase | Mindfulness & Wellness</title>
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================================
+         NAVIGATION
+    ========================================== -->
+
+    <header class="navbar">
+
+        <a href="#home" class="logo">
+            <div class="logo-icon">🌿</div>
+            Mind<span>Ease</span>
+        </a>
+
+        <nav>
+            <ul class="nav-links">
+
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+
+                <li>
+                    <a href="#mindful-tools">Mindful Tools</a>
+                </li>
+
+                <li>
+                    <a href="#mood">Mood Check</a>
+                </li>
+
+                <li>
+                    <a href="#breathing">Breathing</a>
+                </li>
+
+                <li>
+                    <a href="#journal">Journal</a>
+                </li>
+
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <!-- =========================================
+         HERO SECTION
+    ========================================== -->
+
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-container">
+
+                <div class="hero-content">
+
+                    <span class="hero-tag">
+                        🌱 Your space to slow down
+                    </span>
+
+                    <h1>
+                        Find a little more
+                        <span>peace</span>
+                        in your day.
+                    </h1>
+
+                    <p>
+                        MindEase is a simple mindfulness space
+                        designed to help you pause, breathe,
+                        reflect, and reconnect with yourself.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a
+                            href="#breathing"
+                            class="btn-primary"
+                        >
+                            Start Breathing
+                        </a>
+
+                        <a
+                            href="#mindful-tools"
+                            class="btn-secondary"
+                        >
+                            Explore Mindful Tools
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Hero visual -->
+
+                <div class="hero-visual">
+
+                    <div class="mind-card">
+
+                        <div class="mind-card-icon">
+                            🌿
+                        </div>
+
+                        <h3>
+                            Be Present
+                        </h3>
+
+                        <p>
+                            One breath at a time.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             MINDFUL TOOLS
+        ========================================== -->
+
+        <section
+            class="section"
+            id="mindful-tools"
+        >
+
+            <div class="section-heading">
+
+                <span>
+                    Mindful Tools
+                </span>
+
+                <h2>
+                    Small moments can make a difference.
+                </h2>
+
+                <p>
+                    Explore simple activities designed
+                    to bring more calm and awareness
+                    into your day.
+                </p>
+
+            </div>
+
+
+            <div class="feature-grid">
+
+                <!-- Card 1 -->
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        🌬️
+                    </div>
+
+                    <h3>
+                        Conscious Breathing
+                    </h3>
+
+                    <p>
+                        Slow down and focus on your breathing
+                        with a simple guided breathing exercise.
+                    </p>
+
+                </div>
+
+
+                <!-- Card 2 -->
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        💭
+                    </div>
+
+                    <h3>
+                        Daily Reflection
+                    </h3>
+
+                    <p>
+                        Take a few quiet moments to notice
+                        your thoughts, feelings, and experiences.
+                    </p>
+
+                </div>
+
+
+                <!-- Card 3 -->
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        🌱
+                    </div>
+
+                    <h3>
+                        Positive Affirmations
+                    </h3>
+
+                    <p>
+                        Start your day with a gentle reminder
+                        to be patient and kind to yourself.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             MOOD CHECK
+        ========================================== -->
+
+        <section
+            class="section mood-section"
+            id="mood"
+        >
+
+            <div class="section-heading">
+
+                <span>
+                    Check In
+                </span>
+
+                <h2>
+                    How are you feeling today?
+                </h2>
+
+                <p>
+                    There is no right or wrong answer.
+                    Simply notice how you feel.
+                </p>
+
+            </div>
+
+
+            <div class="mood-container">
+
+                <h3>
+                    Take a moment to check in with yourself.
+                </h3>
+
+                <p>
+                    Choose the feeling that best describes
+                    your current mood.
+                </p>
+
+
+                <div class="mood-options">
+
+                    <button
+                        class="mood-btn"
+                        data-mood="happy"
+                    >
+                        <span class="mood-emoji">
+                            😊
+                        </span>
+
+                        <span class="mood-name">
+                            Happy
+                        </span>
+                    </button>
+
+
+                    <button
+                        class="mood-btn"
+                        data-mood="calm"
+                    >
+                        <span class="mood-emoji">
+                            😌
+                        </span>
+
+                        <span class="mood-name">
+                            Calm
+                        </span>
+                    </button>
+
+
+                    <button
+                        class="mood-btn"
+                        data-mood="neutral"
+                    >
+                        <span class="mood-emoji">
+                            😐
+                        </span>
+
+                        <span class="mood-name">
+                            Okay
+                        </span>
+                    </button>
+
+
+                    <button
+                        class="mood-btn"
+                        data-mood="sad"
+                    >
+                        <span class="mood-emoji">
+                            😔
+                        </span>
+
+                        <span class="mood-name">
+                            Low
+                        </span>
+                    </button>
+
+
+                    <button
+                        class="mood-btn"
+                        data-mood="stressed"
+                    >
+                        <span class="mood-emoji">
+                            😣
+                        </span>
+
+                        <span class="mood-name">
+                            Stressed
+                        </span>
+                    </button>
+
+                </div>
+
+
+                <p
+                    id="mood-message"
+                    style="margin-top: 25px;"
+                >
+                    Select a mood to receive a gentle reminder.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             BREATHING EXERCISE
+        ========================================== -->
+
+        <section
+            class="section"
+            id="breathing"
+        >
+
+            <div class="breathing-container">
+
+
+                <!-- Information -->
+
+                <div class="breathing-info">
+
+                    <span class="hero-tag">
+                        Guided Practice
+                    </span>
+
+                    <h2>
+                        Breathe. Pause. Reset.
+                    </h2>
+
+                    <p>
+                        Follow the circle and allow your
+                        breathing to become slower and more
+                        intentional.
+                    </p>
+
+                    <p>
+                        This simple exercise follows a
+                        <strong>4-second inhale</strong>
+                        and a
+                        <strong>6-second exhale.</strong>
+                    </p>
+
+                    <button
+                        id="breathing-start"
+                        class="btn-primary"
+                    >
+                        Start Breathing
+                    </button>
+
+                </div>
+
+
+                <!-- Breathing Circle -->
+
+                <div class="breathing-circle-wrapper">
+
+                    <div class="breathing-circle">
+
+                        <div>
+
+                            <div class="breathing-text">
+                                Ready
+                            </div>
+
+                            <span class="breathing-timer">
+                                Take a moment
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             DAILY AFFIRMATION
+        ========================================== -->
+
+        <section class="section">
+
+            <div class="affirmation">
+
+                <small>
+                    TODAY'S AFFIRMATION
+                </small>
+
+                <h3 id="affirmation-text">
+                    "I am allowed to slow down
+                    and take care of myself."
+                </h3>
+
+                <button id="new-affirmation">
+                    Show Another
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             JOURNAL
+        ========================================== -->
+
+        <section
+            class="section"
+            id="journal"
+        >
+
+            <div class="section-heading">
+
+                <span>
+                    Reflection
+                </span>
+
+                <h2>
+                    Give your thoughts some space.
+                </h2>
+
+                <p>
+                    Write down anything that is on your mind.
+                    There is no perfect way to journal.
+                </p>
+
+            </div>
+
+
+            <div class="journal-container">
+
+                <div class="journal-box">
+
+                    <label for="journal-entry">
+                        What would you like to reflect on today?
+                    </label>
+
+                    <textarea
+                        id="journal-entry"
+                        placeholder="Write your thoughts here..."
+                    ></textarea>
+
+                    <button id="save-journal">
+                        Save Reflection
+                    </button>
+
+                    <p
+                        id="journal-status"
+                        style="margin-top: 12px;"
+                    ></p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================================
+         FOOTER
+    ========================================== -->
+
+    <footer>
+
+        <h3>
+            MindEase 🌿
+        </h3>
+
+        <p>
+            A simple space for mindfulness,
+            reflection, and everyday wellbeing.
+        </p>
+
+        <p style="margin-top: 15px;">
+            © 2026 MindEase. Designed with care.
+        </p>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
